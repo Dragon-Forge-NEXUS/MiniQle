@@ -1,34 +1,27 @@
 ---
-title: Using Netlify CMS with an Astro site
-publishDate: 16 May 2022
-author: Chris Swithinbank
-authorURL: https://twitter.com/swithinbank
-description: How to get started using Netlify CMS to manage your Astro site’s content
+title: Using your blog
+publishDate: 06 Dec 2023
+author: Altie
+authorURL: ""
+description: How to start using your blog.
 layout: ../../layouts/BlogPost.astro
 ---
-![Astro + Netlify CMS logos](/assets/blog/header.png)
+# Welcome MiniQle!
 
-[Netlify CMS](https://www.netlifycms.org/) is an open-source, Git-based content management system. It provides a single-page app for editing content and can publish that content by committing it to a hosted Git repo (for example on GitHub or GitLab).
+To start using your blog, please follow these steps:
 
-Adding Netlify CMS to an [Astro](https://astro.build/) site would usually involve creating a number of files in different parts of your project directory and then keeping all those moving parts in sync. With the [`astro-netlify-cms`](https://github.com/delucis/astro-netlify-cms/) integration, you configure the integration in your `astro.config.mjs` file and the integration takes care of the rest.
+1. Send your perfered email address to me (@altie122 on discord or by another method)
+2. you will get an email that reads as follows
 
-```javascript
-import { defineConfig } from 'astro/config';
-import NetlifyCMS from 'astro-netlify-cms';
+   > ### You've been invited to join relaxed-lokum-9d1f0a.netlify.app
+   >
+   > #### You have been invited
+   >
+   > You have been invited to create a user on [https://miniqle.​dragonforgenexus.xyz](https://miniqle.dragonforgenexus.xyz/). Follow this link to accept the invite:
+   >
+   > Accept the invite
+3. Accept the invite and create your password
+4. go to [https://miniqle.​dragonforgenexus.xyz/admin](https://miniqle.dragonforgenexus.xyz/admin)
+5. Delete or change this post and your set!
 
-export default defineConfig({
-  integrations: [
-    NetlifyCMS({
-      config: {
-        backend: {
-          name: 'git-gateway',
-          branch: 'main',
-        },
-        collections: [
-          // Content collections
-        ],
-      },
-    }),
-  ],
-});
-```
+   Fell free to reach out to me for help, and enjoy!
