@@ -32,17 +32,24 @@
 	--color-red-rgb: 255, 22, 57;
 	--color-yellow: #ffbe2d;
 	--color-yellow-rgb: 255, 190, 45;
+
+	--primary: #c898ab;
+	--secondary: #f1e0c0;
+	--accent: #90e1e4;
+	--primary-rgb: rgb(200, 152, 171);
+	--secondary-rgb: rgb(241, 224, 192);
+	--accent-rgb: rgb(144, 225, 228);
 }
 
 :root {
 	color-scheme: light;
-	--theme-accent: var(--color-orange);
-	--theme-accent-rgb: var(--color-orange-rgb);
+	--theme-accent: var(--accent);
+	--theme-accent-rgb: var(--accent-rgb);
 	--theme-accent-opacity: 0.1;
 	--theme-divider: var(--color-gray-100);
 	--theme-text: #ECEFF3;
-	--theme-text-light: var(--theme-text);
-	--theme-text-lighter: var(--theme-text);
+	--theme-text-light: var(--primary);
+	--theme-text-lighter: var(--secondary);
 	--theme-bg: var(--color-white);
 	--theme-bg-offset: var(--color-white);
 	--theme-bg-accent: rgba(var(--theme-accent-rgb), var(--theme-accent-opacity));
